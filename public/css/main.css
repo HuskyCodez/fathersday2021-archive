@@ -1,0 +1,148 @@
+<<<<<<< HEAD
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    color: white;
+}
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #333333;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 24px 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.button:hover a {
+    background: white;
+    color: #161616;
+    transition: 0.3s;
+=======
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #161616;
+    color: white;
+}
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #333333;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+h2 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Brush Script MT', cursive;
+    font-size: 40px;
+}
+
+.button {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 24px 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    transition: 0.3s;
+}
+
+.button:hover a {
+    background: white;
+    color: #161616;
+    transition: 0.3s;
+>>>>>>> ae1b782f38a537a97ca4608335bfbbc5737f1086
+}
